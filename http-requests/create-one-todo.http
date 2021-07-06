@@ -1,0 +1,8 @@
+POST localhost:8080/todos HTTP/1.1
+Content-Type: application/json
+
+{
+  "body": "Test todo 2",
+  "isDone": false,
+  "createdAt": "2021-07-06T15:56:53.956Z"
+}
